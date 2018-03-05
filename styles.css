@@ -1,0 +1,53 @@
+body{
+background-color: grey;
+}
+.thumbnail{
+    width: 244px;
+    height:220px;
+}
+#number-to-guess {
+    
+    width: 300px;
+    height: 300px;
+    font-size: 40px;
+    font-style: italic;
+    color:  black;
+  }
+  .container {
+    width: 300px;
+    height: 300px;
+  }
+#header{
+    color: yellow;
+margin-bottom: 20px;
+font-size: 40px;
+font-style: italic;
+margin-left: 10px;
+}
+
+#freeplay {
+
+color: lime;
+font-size: 85px;
+margin-bottom: 100px;
+font-style: italic;
+font-weight: bold;
+text-align: center;
+margin-top: 0px;
+margin-right: 669px;
+
+}
+
+#testyourmight {
+    font-style: italic;
+    font-weight: bold;
+    color: yellow;
+font-size: 75px;
+}
+
+#instructions {
+    width: 400px;
+    font-size: 20px;
+}
+
+
