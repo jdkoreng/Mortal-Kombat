@@ -63,7 +63,7 @@ $(document).ready(function() {
     
   
     if (counter === randomNumber) {
-      alert("YOU WIN!")
+      alert("FLAWLESS VICTORY! YOU WIN!")
       wins ++;
       $("#wins").text("You have won " + wins + " time(s)");
       $("#losses").text("You have lost " + losses + " time(s)");
@@ -72,7 +72,7 @@ $(document).ready(function() {
     }
     else if (counter > randomNumber) {
       losses++;
-      alert("YOU LOSE!");
+      alert("FATALITY! YOU LOSE!");
       $("#wins").text("You have won " + wins + " time(s)");
       $("#losses").text("You have lost " + losses + " time(s)");
       resetGame();
